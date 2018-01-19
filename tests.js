@@ -26,6 +26,8 @@ function countStringNumberOf(word) {
 }
 
 
-// function countElements(giraffe, duck) {
-//   print
-// }
+function countElements(giraffe, duck) {
+  print
+}
+
+
