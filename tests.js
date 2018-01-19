@@ -1,15 +1,31 @@
-var index = require("./index.js")
+// var index = require("./index.js")
 
-if (index.name === "Susan") {
+var name = "Joe"
+var height = "74"
+
+countStringNumberOf(name);
+
+if (name === "Susan") {
+
     console.log("The name is correct")
 } else {
-    console.log("Expected: Susan, Received: "+index.name)
+    console.log("Expected: Susan, Received: "　+ name)
 }
 
 
 
-if (index.height === 70) {
+if (height === 70) {
     console.log("The height is correct")
 } else {
-    console.log("Expected: 70, Received: "+index.height)
+    console.log("Expected: 70, Received: "+ height)
 }
+
+
+function countStringNumberOf(word) {
+  console.log("The word count result ->>>> " + word.length);
+}
+
+
+// function countElements(giraffe, duck) {
+//   print
+// }
